@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+    <meta charset="UTF-8">	
+    <title>圆角阴影透明度</title>	
+    <style type="text/css">		
+    .box{			
+        width: 200px;			
+        height: 200px;			
+        border: 2px solid #000;			
+        background-color: gold;			
+        margin: 50px auto 0;					
+        border-radius: 50%;	
+        }		
+        .box1{			
+            width: 200px;			
+            height: 40px;			
+            background-color: gold;			
+            margin: 100px auto 0;						
+            box-shadow: 10px 10px 10px 0px #bfa;		
+            }		
+            .box2{			
+                width: 200px;			
+                height: 40px;			
+                background-color: gold;			
+                margin: 100px auto 0;					
+                box-shadow: 0px 0px 20px 2px red inset;		
+                }		
+                body{			
+                    background-color: cyan;		
+                    }		
+                    .box3{			
+                        width: 200px;			
+                        height: 200px;					
+                        background-color: gold;			
+                        margin: 50px auto 0;			
+                        border: 2px solid #000;			
+                        border-radius: 50%;					
+                        opacity: 0.3;			
+                        filter: alpha(opacity=30);			
+                        text-align: center;			
+                        line-height: 200px;		
+                        }		
+                        .box4{			
+                            width: 200px;			
+                            height: 200px;						
+                            background-color: rgba(255,215,0,0.3);			
+                            margin: 50px auto 0;						
+                            border: 2px solid rgba(0,0,0,0.3);			
+                            border-radius: 50%;			
+                            text-align: center;			
+                            line-height: 200px;		
+                            }		
+                            .d1{			
+                                border: 1px solid red;			
+                                border-radius: 100px;			
+                                width: 150px;			
+                                padding: 1px 0 1px 30px;		
+                                }		
+                                input{			
+                                    border: none;			
+                                    width: 100px;			
+                                    height: 30px;		
+                                    }		
+                                    input:focus{			
+                                        outline:none;		
+                                        }	
+    </style>
+</head>
+<body>	
+    <div class="box"></div>	
+    <div class="box1"></div>	
+    <div class="box2"></div>	
+    <div class="box3">床前明月光</div>	
+    <div class="box4">床前明月光</div>	
+    <div class="d1">		
+        <input type="text">	
+    </div>
+</body>
+</html>
+
